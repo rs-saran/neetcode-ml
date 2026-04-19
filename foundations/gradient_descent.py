@@ -7,7 +7,7 @@ class Solution:
         x = init
         for i in range(iterations):
             
-            fx = x*x
+            # fx = x*x
             dfx = 2*x
             x = x - learning_rate *dfx
 
